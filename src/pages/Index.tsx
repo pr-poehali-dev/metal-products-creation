@@ -62,7 +62,15 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="pt-16 pb-20">
+      <section id="home" className="pt-16 pb-20 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/90 to-blue-900/90 z-10"></div>
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage:
+              "url(/img/8d9f9204-2318-466a-b563-dcfa6b2936f3.jpg)",
+          }}
+        ></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold text-slate-800 mb-6">
